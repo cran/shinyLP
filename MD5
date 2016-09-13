@@ -1,0 +1,17 @@
+de6b586d93e498673a2d038a50efcdaf *DESCRIPTION
+93f5573549450946f745321cb631ad08 *LICENSE
+aa0c71156250807321c0613bcad00c46 *NAMESPACE
+5b6cca22b50500bd88fdcfd26c752123 *R/jumbotron.R
+61a17efb8d7ebd04adba7027ca6735f5 *R/panel_div.R
+4b43174ca3655252f41deec57725779e *R/runExample.R
+47d4555eb5d276af5518a69eade73bcd *R/shinyLP.R
+774620dda94bff546a5d512a615f769a *R/thumbnail_label.R
+b834ec48224ee8f2f4b1fd85cc51c37c *inst/shiny-examples/LPExample/server.R
+b4907580f1aceb766452565718caaeee *inst/shiny-examples/LPExample/ui.R
+87c47ce216260733e73f4066425ec93b *inst/shiny-examples/LPExample/www/Rlogo.png
+32a982b624d4b1c8410df37009ed9383 *inst/shiny-examples/LPExample/www/favicon.ico
+cab8fec2db5f426ca69fa49b0445981c *man/jumbotron.Rd
+cb40bc23b17dcb3979b8db1611d7403c *man/panel_div.Rd
+93b056d56e6c2a4bc0ce5f955827f0b7 *man/runExample.Rd
+030852515a0e8d4fd08c0c328d52926f *man/shinyLP.Rd
+a6fb19423c992a1e05e1eac6061c9be2 *man/thumbnail_label.Rd
