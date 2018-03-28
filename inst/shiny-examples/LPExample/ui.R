@@ -9,6 +9,7 @@
 library(shiny)
 library(shinyBS)
 library(shinyLP)
+library(shinythemes)
 
 # Define UI for application
 shinyUI(
@@ -37,7 +38,7 @@ shinyUI(
                           column(6, panel_div(class_type = "primary", panel_title = "Directions",
                                               content = "How to use the app")),
                           column(6, panel_div("success", "Application Maintainers",
-                                             "Email Me: <a href='mailto:jasmine.dumas@gmail.com?Subject=Shiny%20Help' target='_top'>Jasmine Dumas</a>"))
+                                             HTML("Email Me: <a href='mailto:jasmine.dumas@gmail.com?Subject=Shiny%20Help' target='_top'>Jasmine Dumas</a>")))
                         ),  # end of fluidRow
                         fluidRow(
                           column(6, panel_div("info", "App Status", "Include text with status, version and updates")),
@@ -62,8 +63,8 @@ shinyUI(
                         h1("Hello Visitors!", align = "center"),
                         hr(),
 
-                        list_group(c(list_item("Application Updates", badge_value = 27),
-                                     list_item("User Updates", badge_value = 24)))
+                        list_group(list_item("Application Updates", badge_value = 27),
+                                     list_item("User Updates", badge_value = 24))
 
 
                         ),
@@ -99,4 +100,5 @@ shinyUI(
 
                         )))
 
-)) # end of shiny
+) # end of fluid page
+) # end of shiny

@@ -4,7 +4,10 @@
 \alias{runExample}
 \title{Run The Example Shiny App}
 \usage{
-runExample()
+runExample(display.mode = "showcase")
+}
+\arguments{
+\item{display.mode}{The mode in which to display the example.}
 }
 \value{
 Nothing is returned except a shiny app launched locally displaying
@@ -17,4 +20,3 @@ Run The Example Shiny App
 \examples{
 \dontrun{ runExample() }
 }
-

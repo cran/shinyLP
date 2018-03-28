@@ -5,18 +5,18 @@
 #' and options include, default, small, and large.
 #'
 #' @return a HTML object to be included in the ui section of a shiny app
-#' @importFrom shiny HTML
+#' @import shiny
 #' @seealso \href{http://getbootstrap.com/components/#wells}{Wells}
 #' @examples wells(content = "Look, I'm a well!", size = "large")
 #' @export
 wells <- function(content, size = "default") {
 
   if(size == "default"){
-    HTML(paste0("<div class='well'>", content, "</div>"))
+    div(class = "well", content)
   } else if(size == "large") {
-    HTML(paste0("<div class='well well-lg'>", content, "</div>"))
+    div(class = "well well-lg", content)
   } else {
-    HTML(paste0("<div class='well well-sm'>", content, "</div>"))
+    div(class = "well well-sm", content)
   }
 
 }
