@@ -47,9 +47,6 @@ shinyUI(
                           #### FAVICON TAGS SECTION ####
                           tags$head(tags$link(rel="shortcut icon", href="favicon.ico")),
 
-                          #### JAVASCRIPT TAGS SECTION #### - ENABLE WHEN READY
-                          #tags$head(tags$script(src='pl.js')),
-
                           bsModal("modalExample", "Instructional Video", "tabBut", size = "large" ,
                                   p("Additional text and widgets can be added in these modal boxes. Video plays in chrome browser"),
                                   iframe(width = "560", height = "315", url_link = "https://www.youtube.com/embed/0fKg7e37bQE")
@@ -63,8 +60,8 @@ shinyUI(
                         h1("Hello Visitors!", align = "center"),
                         hr(),
 
-                        list_group(list_item("Application Updates", badge_value = 27),
-                                     list_item("User Updates", badge_value = 24))
+                        list_group(div(list_item("Application Updates", badge_value = 27),
+                                     list_item("User Updates", badge_value = 24)))
 
 
                         ),

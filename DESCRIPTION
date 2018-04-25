@@ -1,7 +1,7 @@
 Package: shinyLP
 Type: Package
 Title: Bootstrap Landing Home Pages for Shiny Applications
-Version: 1.1.1
+Version: 1.1.2
 Authors@R: person("Jasmine", "Dumas", email = "jasmine.dumas@gmail.com", role = c("aut", "cre"))
 Maintainer: Jasmine Dumas <jasmine.dumas@gmail.com>
 Description: Provides functions that wrap HTML Bootstrap
@@ -17,7 +17,7 @@ LazyData: true
 RoxygenNote: 6.0.1
 Suggests: testthat
 NeedsCompilation: no
-Packaged: 2018-03-28 13:15:54 UTC; jasminedumas
+Packaged: 2018-04-25 21:16:01 UTC; jasminedumas
 Author: Jasmine Dumas [aut, cre]
 Repository: CRAN
-Date/Publication: 2018-03-28 13:55:02 UTC
+Date/Publication: 2018-04-25 21:25:03 UTC

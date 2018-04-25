@@ -1,7 +1,7 @@
-2551ff4309eaee089a1ed1b5eb131f53 *DESCRIPTION
+36509001e92e3ea32b407001cdf12ba0 *DESCRIPTION
 93f5573549450946f745321cb631ad08 *LICENSE
 bf786a13588a2b80b86a2075595948cd *NAMESPACE
-16ea512e49f0bf4e32f1ff11350efe21 *NEWS.md
+3d9cf313b1369b3eb2bfee1b794d7f79 *NEWS.md
 217f9ef245c79aba9c264883632e07a3 *R/iframe.R
 66f423dedf8432f493d88c10c6363195 *R/jumbotron.R
 3db3fe758e92597db7f996077abcab83 *R/list_group.R
@@ -9,13 +9,14 @@ bf786a13588a2b80b86a2075595948cd *NAMESPACE
 9fb8fee324d31e51d532ebd495c349ba *R/panel_div.R
 464b89a05d551dc4ce3087738e392a13 *R/runExample.R
 4d2997953dbf3bbdfba480289191ebff *R/shinyLP.R
-beb162215c4865d3973586d753aa86b8 *R/thumbnail_label.R
+d5f6563601b1710cb9a45e881fe30d9c *R/thumbnail_label.R
 1299b1237db7dbe267d8f420f614a267 *R/wells.R
 f213b88d26f2735fdb00fe11749f9109 *README.md
 6ff2098b4be94a382c547f0be917aa81 *inst/shiny-examples/LPExample/DESCRIPTION
 2a7dec7a98f1aad7857ec729b9544f6a *inst/shiny-examples/LPExample/README.md
+6e7541d6a277583100c26e8a1beeeb76 *inst/shiny-examples/LPExample/rsconnect/shinyapps.io/jasminedumas/LPExample.dcf
 b834ec48224ee8f2f4b1fd85cc51c37c *inst/shiny-examples/LPExample/server.R
-165c1bf4d64ba4669d7f2e74a160dba8 *inst/shiny-examples/LPExample/ui.R
+a2d9795d1ac6a9e2ff0a703aa285b1d1 *inst/shiny-examples/LPExample/ui.R
 87c47ce216260733e73f4066425ec93b *inst/shiny-examples/LPExample/www/Rlogo.png
 32a982b624d4b1c8410df37009ed9383 *inst/shiny-examples/LPExample/www/favicon.ico
 94446c20a49aeeb3f4be31a728535a87 *man/iframe.Rd
